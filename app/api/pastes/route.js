@@ -1,3 +1,5 @@
+export const runtime = "nodejs";
+
 import { nanoid } from "nanoid";
 import kv from "@/lib/kv";
 import { now } from "@/lib/time";

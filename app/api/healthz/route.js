@@ -1,6 +1,6 @@
+export const runtime = "nodejs";
+
 import kv from "@/lib/kv";
-
-
 
 export async function GET() {
   try {
