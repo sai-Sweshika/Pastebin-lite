@@ -1,6 +1,7 @@
 import { nanoid } from "nanoid";
-import kv from "../../../lib/kv";
-import { now } from "../../../lib/time";
+import kv from "@/lib/kv";
+import { now } from "@/lib/time";
+
 
 
 export async function POST(req) {
