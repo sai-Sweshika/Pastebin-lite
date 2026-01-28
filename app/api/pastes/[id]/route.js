@@ -1,7 +1,8 @@
 export const runtime = "nodejs";
 
-import kv from "@/lib/kv";
-import { now } from "@/lib/time";
+import kv from "../../../../lib/kv";
+import { now } from "../../../../lib/time";
+
 
 export async function GET(req, { params }) {
   const key = `paste:${params.id}`;
